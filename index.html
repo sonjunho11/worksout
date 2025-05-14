@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOUTHFOOT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: white; color: black; margin: 0; font-family: '굴림', sans-serif; }
+    .mobile-wrapper { max-width: 414px; width: 100%; margin: 0 auto; padding: 0 8px; }
+  </style>
+</head>
+<body>
+  <div class="mobile-wrapper flex flex-col">
+    <!-- 브랜드 로고 -->
+    <div class="py-2">
+      <img src="img/logo-re.gif" alt="SOUTHFOOT" class="w-full h-auto object-contain">
+    </div>
+
+    <!-- 서브 배너 & 네비게이션 아이콘 -->
+    <div class="py-2">
+      <img src="img/top-banner-re1.jpg" alt="배너" class="w-full h-auto object-contain">
+      <div class="flex justify-between mt-2">
+        <a href="#"><img src="img/shoes.gif" alt="shoes" class="w-1/6 h-auto object-contain"></a>
+        <a href="#"><img src="img/apparel.gif" alt="apparel" class="w-1/6 h-auto object-contain"></a>
+        <a href="#"><img src="img/accessories.gif" alt="accessories" class="w-1/6 h-auto object-contain"></a>
+        <a href="#"><img src="img/eyewear.gif" alt="eyewear" class="w-1/6 h-auto object-contain"></a>
+        <a href="#"><img src="img/watch.gif" alt="watch" class="w-1/6 h-auto object-contain"></a>
+        <a href="#"><img src="img/outlet.gif" alt="outlet" class="w-1/6 h-auto object-contain"></a>
+      </div>
+    </div>
+
+    <!-- 로그인 폼 -->
+    <div class="py-2 border border-gray-200 p-2">
+      <div class="flex flex-col space-y-2">
+        <label class="flex justify-between items-center">
+          <span>ID:</span>
+          <input type="text" class="border border-gray-300 flex-1 ml-2 p-1" placeholder="ID">
+        </label>
+        <label class="flex justify-between items-center">
+          <span>PW:</span>
+          <input type="password" class="border border-gray-300 flex-1 ml-2 p-1" placeholder="PW">
+        </label>
+        <div class="flex space-x-2 mt-2">
+          <button class="flex-1 border border-black py-2">LOG IN</button>
+          <button class="flex-1 border border-black py-2">JOIN</button>
+        </div>
+        <button class="w-full border border-black py-2 mt-2">FIND PASSWORD</button>
+      </div>
+    </div>
+
+    <!-- 구분선 -->
+    <div class="py-2">
+      <img src="img/bar.gif" alt="separator" class="w-full h-auto object-contain">
+    </div>
+
+    <!-- 섹션 헤더: 2x2 그리드 -->
+    <div class="py-2 grid grid-cols-2 gap-2">
+      <img src="img/newproduct.gif" alt="NEW PRODUCT" class="w-full h-auto object-contain">
+      <img src="img/coming.gif" alt="GOODS COMING SOON" class="w-full h-auto object-contain">
+      <img src="img/gallery.gif" alt="SPECIAL GALLERY" class="w-full h-auto object-contain">
+      <img src="img/group.gif" alt="GROUP PURCHASE" class="w-full h-auto object-contain">
+    </div>
+
+    <!-- SF 로고 -->
+    <div class="p-2 text-center">
+      <img src="img/b-logo.jpg" alt="SF 로고" class="w-full h-auto object-contain">
+      <div class="text-xs mt-1">international online store</div>
+    </div>
+
+    <!-- 메인 콘텐츠: NEW PRODUCT 리스트 (2열) -->
+    <div class="py-2 grid grid-cols-2 gap-4">
+      <!-- 상품 1 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-1.jpg" alt="CODE:605097-441" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 605097-441</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: DORAEMON</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 2 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-2.jpg" alt="CODE:105052-311" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 105052-311</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: RYOKO</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 3 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-3.jpg" alt="CODE:104050-161" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 104050-161</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: WHITE/RED/BLACK/MESH</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 4 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-4.jpg" alt="CODE:307272-171" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 307272-171</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: JUVENTUS</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 5 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-5.jpg" alt="CODE:313101-151" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 313101-151</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: PURPLE/MESH</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 6 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-6.jpg" alt="CODE:105052-152" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 105052-152</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: ULTRAMARINE</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 7 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-7.jpg" alt="CODE:104050-132" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: 104050-132</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: EMERALD</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+      <!-- 상품 8 -->
+      <div class="flex flex-col items-center text-xs space-y-1">
+        <img src="img/pdImage-8-blur-re1.jpg" alt="CODE:WO1999-001" class="w-full h-auto object-contain" onerror="this.style.display='none'">
+        <p>CODE: WO1999-001</p>
+        <p>MODEL: AIR MAX 95</p>
+        <p>COLOR: UNIFORM</p>
+        <p>SIZE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+        <p>PRICE: <span class="font-bold text-red-500">SOLD OUT</span></p>
+      </div>
+    </div>
+
+    <!-- 푸터 메뉴 -->
+    <div class="py-2 flex flex-wrap justify-around border-t border-gray-200">
+      <a href="#"><img src="img/dmenuf.gif" alt="SF NEWS" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/sizechart.gif" alt="SIZE CHART" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/faqs.gif" alt="FAQS" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/orderform.gif" alt="ORDER FORM" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/bulletinboard.gif" alt="BULLETIN BOARD" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/sitemap.gif" alt="SITE MAP" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/contactus.gif" alt="CONTACT US" class="h-6 object-contain"></a>
+      <a href="#"><img src="img/dmenul.gif" alt="END" class="h-6 object-contain"></a>
+    </div>
+
+  </div>
+</body>
+</html>
